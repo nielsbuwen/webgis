@@ -10,8 +10,8 @@ Tutorial-Repository für das Seminar WebGIS
         Dabei soll auch überprüft werden, ob diese Änderung nicht schon von einer anderen Gruppe vorgenommen wird.
     2. Das Repository *forken*
     3. Den eigenen *Fork* *clonen* mit `git clone https://github.com/BENUTZERNAME/webgis`.
-    4. Einen *Featurebranch* erstellen mit `git branch feature-ISSUENUMMER`.
-    5. Auf den *Branch* wechseln mit `git checkout BRANCHNAME`
+    4. Einen *Featurebranch* erstellen mit `git branch feature-NAME` (z.B. `git branch feature-mensa`).
+    5. Auf den *Branch* wechseln mit `git checkout BRANCHNAME` (z.B. `git checkout feature-mensa`)
 2. Die Änderung vornehmen:
     1. Den Ort beschreiben.
         1. Die Datei `places/_template.js` kopieren und nach dem Ort benennen (z.B. `places/mensa.js`).
@@ -28,4 +28,4 @@ Tutorial-Repository für das Seminar WebGIS
     1. Die neue Datei und die geänderte Datei *stagen* mit `git add index.html places/DATEINAME.js`.
     2. Die Dateien *committen* mit `git commit -m "HINWEIS, WAS GENAU GEÄNDERT WURDE (MIT REFERENZ AUF ISSUE)"`.
     3. Den Commit *pushen* mit `git push -u origin BRANCHNAME`.
-    4. Pullrequest auf *github.com* erstellen.
+    4. Pullrequest auf *github.com* erstellen und dabei das Issue referenzieren.
