@@ -3,7 +3,6 @@
 const HD_LAT = 49.41510547562049;
 const HD_LON = 8.682589530944826;
 const HD_ZOOM = 14;
-const POIS = [];
 
 function setup(layer_name) {
     const map = L.map('map').setView([HD_LAT, HD_LON], HD_ZOOM);
@@ -45,26 +44,26 @@ function select_background_layer(name) {
     return watercolor
 }
 
+const Map = setup();
 
-const map = setup();
-
+const Places = [];
 function add_polygon(message, color, points) {
     const polygon = L.polygon(points, {
         color: color
-    }).addTo(map);
+    }).addTo(Map);
     polygon.bindPopup(message);
-    POIS.push(polygon)
+    Places.push(polygon)
 }
 
 
 function back() {
-    map.setView([HD_LAT, HD_LON], HD_ZOOM);
+    Map.setView([HD_LAT, HD_LON], HD_ZOOM);
 }
 
 let LastIndex = 0;
 function poi() {
-    const polygon = POIS[LastIndex];
-    map.fitBounds(polygon.getBounds());
+    const polygon = Places[LastIndex];
+    Map.fitBounds(polygon.getBounds());
 
-    LastIndex = (LastIndex + 1) % POIS.length;
+    LastIndex = (LastIndex + 1) % Places.length;
 }
