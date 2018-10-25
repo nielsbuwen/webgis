@@ -14,7 +14,7 @@ Tutorial-Repository für das Seminar WebGIS
     5. Auf den *Branch* wechseln mit `git checkout BRANCHNAME` (z.B. `git checkout feature-mensa`)
 2. Die Änderung vornehmen:
     1. Den Ort beschreiben.
-        1. Die Datei `places/_template.js` kopieren und nach dem Ort benennen (z.B. `places/mensa.js`).
+        1. Die Datei `places/_template.js` kopieren und *DIE KOPIE* nach dem Ort benennen (z.B. `places/mensa.js`).
         2. In der Funktion `add_polygon` einen benutzerfreundlichen Namen eintragen.
         3. In der Funktion `add_polygon` eine [Farbe](https://www.w3schools.com/cssref/css_colors.asp) für das Polygon eintragen.
         4. Die Eckpunkte des Polygons in Form von Latitude/Longitude-Tupeln eintragen.
