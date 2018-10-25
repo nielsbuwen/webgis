@@ -1,4 +1,4 @@
-add_polygon("HIER DEN NAMEN EINTRAGEN", 'HIER EINE FARBE EINTRAGEN', [
+add_polygon("OK", '#00FFFF', [
     // Hier die Koordinaten eintragen:
     // Das Polygon kann aus beliebig vielen Punkten zusammengesetzt werden.
     // Es sollte aber aus mindestens drei Punkten bestehen.
