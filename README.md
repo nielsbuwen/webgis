@@ -2,6 +2,17 @@
 
 Tutorial-Repository für das Seminar WebGIS
 
+Danke an Alle für die fleißige Mithilfe!
+
+Um sämtliche Änderungen in euren *Fork* zu übernehmen müsst Ihr folgendes tun:
+
+1. Euren *Fork* *clonen* falls noch nicht geschehen, oder falls Ihr an einem anderen Computer sitzt.
+2. *git bash* in dem neuen Ordner öffnen oder `cd webgis` eintippen
+3. **Einmalig (pro Repository)** das Hauptrepository verlinken mit `git remote add upstream https://github.com/nielsbuwen/webgis`
+4. Auf den *master* *branch* wechseln, falls noch nicht geschehen mit `git checkout master`
+5. Die Änderungen aus dem Hauptrepository herunterladen mit `git pull upstream master`
+6. Die neuen POIs bewundern
+
 ![screen shot of the map](screenshot.jpg)
 
 # Wie trägt man einen neuen Ort auf der Karte ein?
