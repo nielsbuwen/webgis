@@ -2,6 +2,7 @@
 
 Tutorial-Repository für das Seminar WebGIS
 
+![screen shot of the map](screenshot.jpg)
 
 # Wie trägt man einen neuen Ort auf der Karte ein?
 
