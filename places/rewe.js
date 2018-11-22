@@ -1,4 +1,4 @@
-add_polygon("Rewe", 'ROT', [
+add_polygon("Rewe", 'red', [
     // Hier die Koordinaten eintragen:
     // Das Polygon kann aus beliebig vielen Punkten zusammengesetzt werden.
     // Es sollte aber aus mindestens drei Punkten bestehen.
